@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Jiali_Chen_Lab_5_Header.h">
+    <ClCompile Include="Jiali_Chen_Lab_5_Driver.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
+    </ClCompile>
+    <ClCompile Include="Jiali_Chen_Lab_5_Implementation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Jiali_Chen_Lab_5_Implementation.cpp">
+    <ClInclude Include="Jiali_Chen_Lab_5_Header.h">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Jiali_Chen_Lab_5_Driver.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>
